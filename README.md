@@ -73,3 +73,10 @@ This tutorial shows some of the main features in Istio.
 
 Link: [Bookinfo](https://istio.io/docs/guides/bookinfo.html) We haven't tested it on minikube by our self.
 
+## Prometheus Operator
+
+The Prometheus Operator creates some custom resources in Kuberentes that makes it easy to add new services to be scheduled for fetching metrics. There is one project that integrates Kubernetes itself into Prometheus as well and then there is the base package of the operator. We have not fully tested this our self, but it seems really easy to use. If you try this we suggest that you don't run this together with Istio (also includes a version of Prometheus). 
+
+Link: [kube-prometheus](https://github.com/coreos/prometheus-operator/tree/master/contrib/kube-prometheus)
+
+Link: [Prometheus Operator](https://github.com/coreos/prometheus-operator)
