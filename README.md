@@ -52,3 +52,18 @@ Link: [Kubernetes 201](https://kubernetes.io/docs/user-guide/walkthrough/k8s201/
 The Guestbook example shows a complete application deployment in Kubernetes. It includes a web frontend and a redis database as backend. The deployment is a full redundant configuration with a scalable frontend. Running this example on "Play with Kubernetes" can be extra interesting to see how the pods are distributed between serveral nodes.
 
 Link: [Guestbook](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/)
+
+## Advance tutorials
+
+### Helm
+
+Helm is a package tool for deploying a group of resources to Kubernetes. These groups are called Charts. It supports templating of the resource definition files and makes it easy to maintain deployments for several environment. Many open source tools uses helm to package them for kubernetes. It's also possible to have dependencies to other helm charts.
+
+Link: [You First Helm Chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/) We haven't tested this, but it looks good.
+
+### Istio
+
+Istio is a service mesh layer on top of Kubernetes. It can manage a lot of tooling for you to make it possible to monitor interaction between services and add routing rules for the communication between services. Some of the features that you get is Prometheus metrics, Open Tracing logging, secure communication between services and possibility to add authentication/authorization outside of the application in a standard way. By using routing rules you can do A/B-testing, canary testing and roll out new version of services with very granularity.
+
+Link: [Istio](https://istio.io/docs/setup/kubernetes/quick-start.html)
+Link: [Some tips](ISTIO.md)
