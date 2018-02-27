@@ -66,4 +66,10 @@ Link: [You First Helm Chart](https://docs.bitnami.com/kubernetes/how-to/create-y
 Istio is a service mesh layer on top of Kubernetes. It can manage a lot of tooling for you to make it possible to monitor interaction between services and add routing rules for the communication between services. Some of the features that you get is Prometheus metrics, Open Tracing logging, secure communication between services and possibility to add authentication/authorization outside of the application in a standard way. By using routing rules you can do A/B-testing, canary testing and roll out new version of services with very granularity.
 
 Link: [Istio](https://istio.io/docs/setup/kubernetes/quick-start.html)
-Link: [Some tips](ISTIO.md)
+
+Link: [Installation on minikube](ISTIO.md)
+
+This tutorial shows some of the main features in Istio.
+
+Link: [Bookinfo](https://istio.io/docs/guides/bookinfo.html) We haven't tested it on minikube by our self.
+
